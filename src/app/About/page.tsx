@@ -1,6 +1,5 @@
+'use client';
 import React from 'react'
-import Nav from "../Header/page";
-
 
 
 const About = () => {

@@ -1,5 +1,5 @@
 'use client';
-import Image from "next/image";
+
 import About from "./About/page"
 import Projects from "./Projects/page"
 import Projects02 from "./Projects02/page"
