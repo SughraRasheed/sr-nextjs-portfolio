@@ -12,8 +12,16 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        Poppins : ["Poppins, sans-serif"],
+        Roboto: ['Roboto', "sans-serif"],
+        StyleScript: ["Style Script" ,"cursive"] ,
+       Merienda: ["Merienda", 'cursive'],
+       
+       
     },
   },
   plugins: [],
-};
+},
+}
 export default config;
