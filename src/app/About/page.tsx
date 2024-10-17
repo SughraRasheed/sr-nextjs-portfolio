@@ -12,7 +12,7 @@ const About = () => {
         
             <div className="flex justify-center">
                 <div> 
-                <h1 className="font-extrabold text-5xl text-sky-950 mx-28 mt-36 ">
+                <h1 className="font-extrabold text-5xl text-sky-950 mx-28 mt-28 ">
                     ABOUT ME
                 </h1>
                 <p className=" md:h-[800px] w-full md:w-[800px]  md:leading-10 p-8 md:text-xl  mx-20">
@@ -24,7 +24,7 @@ etc. where I have successfully blended Architectural integrity with aesthetic in
                 </p>
                 </div>
 
-                <div className="  bg-[url('/images/collage.png')]  lg:w-[900px] lg:h-[700px] bg-cover mx-auto ">
+                <div className="  bg-[url('/images/collage.png')]  lg:w-[800px] lg:h-[600px] bg-cover mx-auto ">
                 </div>
                 
             </div>

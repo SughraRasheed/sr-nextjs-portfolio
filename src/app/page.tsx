@@ -36,7 +36,7 @@ export default function Home() {
                </button>
           </div>
          
-          <div className="rounded-full shadow-xl  border-sky-950 shadow-zinc-600 bg-[url('/images/mypic.png')] w-[400px] h-[400px] lg:w-[600px] lg:h-[600px] bg-cover mx-auto my-auto "></div>
+          <div className="rounded-full shadow-xl  border-sky-950 shadow-zinc-600 bg-[url('/images/mypic.png')] w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] bg-cover mx-auto my-auto "></div>
        
           
           </div>
