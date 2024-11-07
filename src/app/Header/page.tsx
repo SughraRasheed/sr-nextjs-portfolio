@@ -9,13 +9,13 @@ const Header= () => {
   return (
      
         <div>
-             <nav className="py-3 bg-sky-950  text-white flex justify-between"> 
+             <nav className=" bg-sky-950  text-white flex justify-between"> 
             
-            <ul className=" bg-[url('/images/logo.png')] lg:w-[120px] lg:h-[70px] bg-cover mx-20  ">
+            <ul className=" bg-[url('/images/logo.png')] lg:w-[120px] lg:h-[80px] bg-cover  mx-16  object-cover">
               
             </ul>
              
-            <ul className="px-20 py-7 flex space-x-5 justify-end text-2xl"> 
+            <ul className="px-20 py-7 flex space-x-5 justify-end text-xl"> 
             <li className="px-2 cursor-pointer  hover:text-yellow-400"> Home</li>
             <li className="px-2 cursor-pointer  hover:text-yellow-400">
             <Link href="#About" onClick={() => setNavbar(!navbar)}>

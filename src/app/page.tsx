@@ -15,28 +15,28 @@ export default function Home() {
   return (
    
       <main >
-        <section className="bg-[url('/images/bg2.jpg')] bg-cover bg-no repeat h-screen py-40">
+        <section className="bg-[url('/images/bg2.jpg')] bg-cover bg-no repeat h-screen py-40 ">
          
-          <div className="flex justify-between">
+          <div className="flex justify-between  ">
             <div> 
-            <h3 className="font-bold text-5xl mx-20 text-sky-950">
+            <h3 className="font-bold text-3xl mx-16 text-sky-950">
               Hi, I am
               </h3>
-              <h1 className="font-extrabold text-7xl mx-20 text-sky-950 shadow-sky-950 font-serif ">
-              Sughra Rasheed!
+              <h1 className="font-extrabold text-5xl mx-16 text-sky-950 shadow-sky-950 font-serif text-decoration-line: italic underline ">
+              Sughra Rasheed &hearts;!
               </h1> 
             
-            <p className="text-3xl text-gray-600 mx-20 my-11" > 
+            <p className="text-2xl text-gray-600 mx-16 my-11" > 
             I am an Architect and Interior designer
             </p>
-            <button className="bg-yellow-400 text-sky-950 mx-20 my-6 py-2 px-4 rounded-2xl text-2xl hover:text-white hover:bg-sky-950 font-bold"> 
+            <button className="bg-yellow-400 text-sky-950 mx-16 my-6 py-2 px-4 rounded-2xl text-xl hover:text-white hover:bg-sky-950 font-bold"> 
             <Link href="#Projects" onClick={() => setNavbar(!navbar)}>
               My Projects 
                   </Link>
                </button>
           </div>
          
-          <div className="rounded-full shadow-xl  border-sky-950 shadow-zinc-600 bg-[url('/images/mypic.png')] w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] bg-cover mx-auto my-auto "></div>
+          <div className="rounded-full shadow-xl  border-sky-950 shadow-zinc-600 bg-[url('/images/mypic.png')] w-[400px] h-[400px] lg:w-[400px] lg:h-[400px] bg-cover mx-auto my-auto "></div>
        
           
           </div>
