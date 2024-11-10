@@ -1,6 +1,5 @@
 'use client';
-import { log } from 'console';
-import { div } from 'framer-motion/client';
+
 import React from 'react'
 
 
