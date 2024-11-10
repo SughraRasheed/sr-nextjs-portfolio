@@ -7,7 +7,7 @@ const Contact = () => {
   return (
         <section
     id="Contact"
-    className="bg-[url('/images/bg2.jpg')] bg-cover bg-no repeat h-screen py-11" >
+    className="bg-[url('/images/bg2.jpg')] bg-cover bg-no repeat h-screen py-4 md:py-11" >
         
         
         <h1 className="text-center font-bold text-4xl md:text-5xl text-yellow-400 shadow-2xl shadow-sky-950 ">
@@ -62,27 +62,27 @@ const Contact = () => {
 
 
             
-        <div className="flex flex-col items-center md:items-start" > 
+        <div className="flex flex-col items-center md:items-start text-white" > 
             
             <div  className="flex mt-9 md:mt-2"> 
                  <div className=" bg-[url('/images/email.png')]  my-1 md-my-3 h-[25px]  w-[25px] lg:w-[50px] lg:h-[50px] bg-cover ">
 
             </div>
-            <h2 className="text-md md:text-xl text-sky-950 mt-2 mx-5"> sughrarasheed91@gmail.com</h2>
+            <h2 className="text-md md:text-xl  mt-2 mx-5"> sughrarasheed91@gmail.com</h2>
 
             </div>
             <div className="flex "> 
             <div className=" bg-[url('/images/tele.png')] my-1 md-my-3  h-[25px] w-[25px] lg:w-[50px] lg:h-[50px] bg-cover ">
 
             </div>
-            <h2 className="text-md md:text-xl text-sky-950 mt-2 mx-5"> 021-34987279</h2>
+            <h2 className="text-md md:text-xl mt-2 mx-5"> 021-34987279</h2>
             </div>
 
             <div className="flex"> 
             <div className=" bg-[url('/images/mob.png')]  my-1 md-my-3 h-[25px] w-[25px] lg:w-[50px] lg:h-[50px] bg-cover ">
 
             </div>
-            <h2 className="text-md md:text-xl text-sky-950 mt-2 mx-5"> 0340-1234567</h2>
+            <h2 className="text-md md:text-xl  mt-2 mx-5"> 0340-1234567</h2>
             </div>
         </div>
 

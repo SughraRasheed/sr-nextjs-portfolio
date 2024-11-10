@@ -9,7 +9,7 @@ const Projects = () => {
      
       <section
       id="Projects"
-        className=" bg-[url('/images/bg2.jpg')] bg-cover bg-no repeat h-screen py-11 ">
+        className=" bg-[url('/images/bg2.jpg')] bg-cover bg-no repeat h-screen py-4 md:py-11 ">
           <h1 className="text-center font-normal text-4xl md:text-5xl text-yellow-400 shadow-2xl shadow-sky-950 ">
                 MY PROJECTS
             </h1>
@@ -18,13 +18,13 @@ const Projects = () => {
         <div className="flex flex-col  text-sky-950 ">
           <h1 className=" pt-5 md:pt-12 text-4xl md:text-6xl"> 01.</h1>
           <h3 className=" text-2xl md:text-3xl"> Bahria Town <br/>Residence</h3>
-          <div className=" bg-[url('/images/01.png')] w-[320px] h-[220px]  lg:w-[500px] lg:h-[330px] bg-cover"></div>
+          <div className=" bg-[url('/images/01.png')] w-[300px] h-[200px]  lg:w-[500px] lg:h-[330px] bg-cover"></div>
         </div>
 
         <div className="flex flex-col  text-sky-950 ">
         <h1 className="pt-5 md:pt-12 text-4xl md:text-6xl">   02. </h1>
         <h3 className="text-2xl md:text-3xl"> MOVENPICK</h3>
-        <div className=" bg-[url('/images/02.png')] w-[320px] h-[220px] lg:w-[500px] lg:h-[330px] bg-cover md:mt-9"></div>
+        <div className=" bg-[url('/images/02.png')] w-[300px] h-[200px] lg:w-[500px] lg:h-[330px] bg-cover md:mt-9"></div>
         </div>
 
       

@@ -13,9 +13,9 @@ const Header= () => {
     
     <Wrapper>
         <div>
-             <nav className=" bg-sky-950  text-white flex justify-between "> 
+             <nav className=" bg-sky-950  text-white flex justify-between fit"> 
             
-            <ul className=" bg-[url('/images/logo.png')] w-[120px] h-[90px] lg:w-[120px] lg:h-[80px] bg-cover  mx-16  object-cover ">
+            <ul className=" bg-[url('/images/logo.png')] w-[132px] h-[90px] lg:w-[120px] lg:h-[80px] bg-cover  mx-16  object-cover ">
               
             </ul>
              {/* HAMBURGER BUTTON FOR MOBILE */}
@@ -32,20 +32,20 @@ const Header= () => {
                 </button>
               </div>
               <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              className={`flex-1 justify-self-center pb-3 mt-1 md:block md:pb-0 md:mt-0 ${
                 navbar ? "p-12 md:p-0 block" : "hidden"
               }`}
             >
             <div> 
              
-            <ul className="px-20 py-7 flex space-x-5 justify-end text-xl "> 
-            <li className="px-2 cursor-pointer  hover:text-yellow-400"> Home</li>
-            <li className="px-2 cursor-pointer  hover:text-yellow-400">
+            <ul className="h-screen md:h-auto  md:mx-16 md:px-20 md:py-7 py-7 flex flex-col md:flex-row space-y-5 md:space-y-1 md:space-x-5 md:justify-end sm:text-xl  text-center sm:text-right "> 
+            <li className="md:px-2 cursor-pointer  hover:text-yellow-400"> Home</li>
+            <li className="md:px-2 cursor-pointer  hover:text-yellow-400">
             <Link href="#About" onClick={() => setNavbar(!navbar)}>
                     About
                   </Link></li>
 
-            <li className="px-2 cursor-pointer  hover:text-yellow-400">
+            <li className="md:px-2 cursor-pointer  hover:text-yellow-400">
             <Link href="#Contact" onClick={() => setNavbar(!navbar)}>
                     Contact
                   </Link></li>

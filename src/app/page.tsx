@@ -16,18 +16,18 @@ export default function Home() {
    
       <main>
         <Wrapper>
-        <section className="bg-[url('/images/bg2.jpg')] bg-cover bg-no repeat h-screen py-12 md:pt-40 mx-auto ">
+        <section className="bg-[url('/images/bg2.jpg')] bg-cover bg-no repeat h-screen py-5 md:py-12 md:pt-40 mx-auto ">
          
           <div className="flex flex-col md:flex-row md:items-center text-center md:text-left">
             <div> 
-            <h3 className="font-bold text-3xl mx-16 my-5 text-sky-950">
+            <h3 className="font-bold text-3xl mx-16  md:my-5 text-sky-950">
               Hi, I am
               </h3>
               <h1 className="font-extrabold text-5xl md:text-6xl mx-16 text-sky-950  shadow-sky-950 font-serif text-decoration-line: italic underline ">
               Sughra Rasheed!
               </h1> 
             
-            <p className="text-2xl text-gray-600 mx-16 my-7 md:my-11" > 
+            <p className="text-2xl text-gray-600 mx-16 my-3 md:my-11" > 
             I am an Architect and Interior designer
             </p>
             <button className="bg-yellow-400 text-sky-950 mx-16 md:my-6 py-1 md:py-2 px-4 rounded-2xl text-xl hover:text-white hover:bg-sky-950 font-bold"> 
@@ -43,7 +43,7 @@ export default function Home() {
                </button>
           </div>
          
-          <div className="rounded-full shadow-xl  border-sky-950 shadow-zinc-600 bg-[url('/images/mypic.png')] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] bg-cover mx-auto my-10 md:my-auto "></div>
+          <div className="rounded-full shadow-xl  border-sky-950 shadow-zinc-600 bg-[url('/images/mypic.png')] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] bg-cover mx-auto my-5 md:my-auto "></div>
        
           
           </div>
